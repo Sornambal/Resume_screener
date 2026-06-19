@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pymupdf
+markdown
+beautifulsoup4
+sentence-transformers
+faiss-cpu
+groq
+numpy
+pydantic
+python-multipart
