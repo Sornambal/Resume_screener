@@ -3,9 +3,9 @@ from fastapi import APIRouter, UploadFile, File, HTTPException, status
 from typing import Annotated
 from pathlib import Path
 import tempfile
-from services import storage, extractor
-from models.schemas import UploadResponse
-from config import ALLOWED_EXTENSIONS
+from ..services import storage, extractor
+from ..models.schemas import UploadResponse
+from ..config import ALLOWED_EXTENSIONS
 
 router = APIRouter(prefix="/api", tags=["upload"])
 

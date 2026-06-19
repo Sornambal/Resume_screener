@@ -2,7 +2,7 @@
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import faiss
-from config import EMBEDDING_MODEL
+from ..config import EMBEDDING_MODEL
 
 # Global model cache
 _model = None

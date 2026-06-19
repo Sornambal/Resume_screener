@@ -1,9 +1,9 @@
 """Main FastAPI application."""
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import upload, screen, results
-from services.embedder import load_model
-from services.qa_checker import load_nli_model
+from .routers import upload, screen, results
+from .services.embedder import load_model
+from .services.qa_checker import load_nli_model
 
 app = FastAPI(
     title="Resume Screening QA API",

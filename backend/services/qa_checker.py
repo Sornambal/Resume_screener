@@ -1,7 +1,7 @@
 """QA checking and contradiction detection."""
 from sentence_transformers import CrossEncoder
-from models.schemas import ScoreResult, QAReport
-from config import VARIANCE_THRESHOLD, NLI_MODEL
+from ..models.schemas import ScoreResult, QAReport
+from ..config import VARIANCE_THRESHOLD, NLI_MODEL
 
 # Global NLI model cache
 _nli_model = None

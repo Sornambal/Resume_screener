@@ -1,9 +1,9 @@
 """Screening router for running candidate evaluation."""
 from fastapi import APIRouter, HTTPException, status
 from pathlib import Path
-from services import storage, extractor, embedder, scorer, qa_checker
-from models.schemas import ScreeningResponse, CandidateResult
-from config import SCORE_RUNS, SEMANTIC_WEIGHT, LLM_WEIGHT, UPLOAD_DIR
+from ..services import storage, extractor, embedder, scorer, qa_checker
+from ..models.schemas import ScreeningResponse, CandidateResult
+from ..config import SCORE_RUNS, SEMANTIC_WEIGHT, LLM_WEIGHT, UPLOAD_DIR
 
 router = APIRouter(prefix="/api", tags=["screening"])
 

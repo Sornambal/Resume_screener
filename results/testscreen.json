@@ -1,0 +1,63 @@
+{
+  "session_id": "testscreen",
+  "jd_filename": "job.md",
+  "candidates": [
+    {
+      "resume_filename": "resume.txt",
+      "semantic_score": 0.7503013014793396,
+      "llm_runs": [
+        {
+          "run_index": 0,
+          "score": 80,
+          "justification": "The candidate has relevant experience in building APIs with FastAPI and data analysis using pandas, but the resume lacks specific details about the projects or experience.",
+          "strengths": [
+            "Experience with FastAPI",
+            "Experience with data analysis using pandas"
+          ],
+          "gaps": [
+            "Lack of specific project details",
+            "No mention of other relevant skills or experience"
+          ]
+        },
+        {
+          "run_index": 1,
+          "score": 80,
+          "justification": "The candidate has relevant experience in building APIs with FastAPI and data analysis using pandas, but the resume lacks specific details about the projects or experience.",
+          "strengths": [
+            "Experience with FastAPI",
+            "Experience with data analysis using pandas"
+          ],
+          "gaps": [
+            "Lack of specific project details",
+            "No mention of other relevant skills or experience"
+          ]
+        },
+        {
+          "run_index": 2,
+          "score": 80,
+          "justification": "The candidate has relevant experience in building APIs with FastAPI and data analysis using pandas, but the resume lacks specific details about the projects or experience.",
+          "strengths": [
+            "Experience with FastAPI",
+            "Experience with data analysis using pandas"
+          ],
+          "gaps": [
+            "Lack of specific project details",
+            "No mention of other relevant skills or experience"
+          ]
+        }
+      ],
+      "qa_report": {
+        "is_consistent": true,
+        "score_variance": 0.0,
+        "min_score": 80,
+        "max_score": 80,
+        "mean_score": 80.0,
+        "contradiction_detected": false,
+        "contradiction_detail": null,
+        "flag_level": "PASS"
+      },
+      "final_score": 78.01205205917358,
+      "rank": 1
+    }
+  ]
+}

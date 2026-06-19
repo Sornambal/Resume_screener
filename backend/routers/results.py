@@ -1,6 +1,6 @@
 """Results router for retrieving screening results."""
 from fastapi import APIRouter, HTTPException, status
-from services import storage
+from ..services import storage
 
 router = APIRouter(prefix="/api", tags=["results"])
 

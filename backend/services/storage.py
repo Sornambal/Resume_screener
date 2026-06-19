@@ -2,7 +2,7 @@
 import json
 from uuid import uuid4
 from pathlib import Path
-from config import UPLOAD_DIR, RESULTS_DIR
+from ..config import UPLOAD_DIR, RESULTS_DIR
 
 
 def generate_session_id() -> str:
