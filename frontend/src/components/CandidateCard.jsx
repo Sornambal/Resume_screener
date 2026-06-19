@@ -4,6 +4,7 @@ import AuditDrawer from './AuditDrawer';
 
 export default function CandidateCard({ candidate }) {
   const [auditOpen, setAuditOpen] = useState(false);
+  const finalScore = Math.round(candidate.final_score);
 
   const getCircleColor = () => {
     if (candidate.final_score >= 80) return '#64FFDA';
@@ -65,6 +66,12 @@ export default function CandidateCard({ candidate }) {
             </div>
             <div className="flex-1">
               <h3 className="text-lg font-mono text-text-primary">{candidate.resume_filename}</h3>
+              <div className="mt-2 flex items-center gap-3">
+                <div className="rounded-full px-3 py-1 bg-accent/10 text-accent font-bold text-sm tracking-wide">
+                  Final Score
+                </div>
+                <div className="text-3xl font-bold text-white">{finalScore}</div>
+              </div>
               <p className="text-xs text-text-muted mt-1">Final Score</p>
             </div>
           </div>
@@ -74,6 +81,10 @@ export default function CandidateCard({ candidate }) {
         {/* Main score display */}
         <div className="flex items-center gap-8 mb-6">
           <div>{renderCircleProgress()}</div>
+          <div className="text-center">
+            <p className="text-xs uppercase tracking-[0.2em] text-text-muted mb-2">Final Score</p>
+            <p className="text-5xl font-bold text-white">{finalScore}</p>
+          </div>
           <div className="flex-1 space-y-4">
             {/* Semantic match bar */}
             <div>

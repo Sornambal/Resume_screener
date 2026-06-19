@@ -1,0 +1,66 @@
+{
+  "session_id": "9f06dfbb",
+  "jd_filename": "JD - Aerele - 2026 (1).pdf",
+  "candidates": [
+    {
+      "resume_filename": "Sornambal_resume_cloudepok.pdf",
+      "semantic_score": 0.4395599365234375,
+      "llm_runs": [
+        {
+          "run_index": 0,
+          "score": 85,
+          "justification": "The candidate has a strong background in Python, AI, and ML, which aligns with the job requirements. However, there is a gap in experience with the Frappe framework, which is a key requirement for the role.",
+          "strengths": [
+            "Strong Python skills with experience in AI and ML",
+            "Hands-on experience with LangChain, LangGraph, and other modern AI frameworks",
+            "Good understanding of backend AI development and API integrations"
+          ],
+          "gaps": [
+            "Lack of experience with the Frappe framework",
+            "No direct experience with ERPNext, although has experience with other business software"
+          ]
+        },
+        {
+          "run_index": 1,
+          "score": 85,
+          "justification": "The candidate has a strong background in Python, AI, and ML, which aligns with the job requirements. However, there is a gap in experience with the Frappe framework, which is a key requirement for the role.",
+          "strengths": [
+            "Strong Python skills with experience in AI and ML",
+            "Hands-on experience with LangChain, LangGraph, and other modern AI frameworks",
+            "Good understanding of backend AI development and API integrations"
+          ],
+          "gaps": [
+            "Lack of experience with the Frappe framework",
+            "No direct experience with ERPNext, although has experience with other business software"
+          ]
+        },
+        {
+          "run_index": 2,
+          "score": 85,
+          "justification": "The candidate has a strong background in Python, AI, and ML, which aligns with the job requirements. However, there is a gap in experience with the Frappe framework, which is a key requirement for the role.",
+          "strengths": [
+            "Strong Python skills with experience in AI and ML",
+            "Hands-on experience with LangChain, LangGraph, and other modern AI frameworks",
+            "Good understanding of backend AI development and API integrations"
+          ],
+          "gaps": [
+            "Lack of experience with the Frappe framework",
+            "No direct experience with ERPNext, although has experience with other business software"
+          ]
+        }
+      ],
+      "qa_report": {
+        "is_consistent": true,
+        "score_variance": 0.0,
+        "min_score": 85,
+        "max_score": 85,
+        "mean_score": 85.0,
+        "contradiction_detected": false,
+        "contradiction_detail": null,
+        "flag_level": "PASS"
+      },
+      "final_score": 68.5823974609375,
+      "rank": 1
+    }
+  ]
+}
